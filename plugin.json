@@ -1,0 +1,13 @@
+{
+	"id": "nodebb-teamspeak-groups-sync",
+	"name": "NodeBB TeamSpeak Groups Sync",
+	"description": "Allow TeamSpeak users to select their groups throught forum.",
+	"url": "https://github.com/DavidPS92/nodebb-teamspeak-groups-syn",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "static:app.load", "method": "init"
+		}
+	],
+	"templates": "./templates"
+}
